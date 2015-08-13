@@ -1,0 +1,8 @@
+jenkins:
+  build: .
+  ports:
+   - "8080:8080"
+   - "50001:50001"
+  volumes:
+   - ./data:/var/jenkins_home
+

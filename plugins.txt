@@ -1,0 +1,6 @@
+scm-api:0.2
+git-client:1.18.0
+git:2.4.0
+authentication-tokens:1.1
+docker-commons:1.2
+docker-build-step:1.28
