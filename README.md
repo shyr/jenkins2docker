@@ -2,6 +2,11 @@
 This is a jenkins docker image to build Dockerfile and push to private docker repository using `docker-build-step plugin`.
 
 ## Install
+At first, get the source of this.
+```
+$ https://github.com/shyr/jenkins2docker.git
+```
+
 You can simply run jenkins container with docker-compose. The '-d' option means run as daemon. If you don't want to run as daemon, you can make it away.
 ```
 $ docker-compose up -d
