@@ -18,7 +18,7 @@ $ docker build -t <IMAGE_NAME> .
 ```
 
 ## Plugins
-Specify plugins you need in [plugins.txt](https://github.com/shyr/jenkins2docker/blob/master/plugins.txt) file.
+Specify jenkins plugins you need in [plugins.txt](https://github.com/shyr/jenkins2docker/blob/master/plugins.txt) file.
 
-## Requirements.
+## Requirements
 To build dockerfile you need docker daemon(in local or remote). Please refer to official [docker-build-step plugin](https://wiki.jenkins-ci.org/display/JENKINS/Docker+build+step+plugin) site.
